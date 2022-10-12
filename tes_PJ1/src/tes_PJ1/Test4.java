@@ -28,6 +28,7 @@ public class Test4 {
 		driver.findElement(By.xpath("//*[@for='gender-male']")).click();
 		//gender.click();
 		System.out.println("Radio button status after click: "+ gender.isSelected());
+		System.out.println("end");
 	}
 
 }
